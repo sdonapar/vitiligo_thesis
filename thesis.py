@@ -51,15 +51,24 @@ def plot_graph(mydf,style=None,fname=None,colormap=None,stacked=False):
     if fname:
     	plt.savefig(fname)
 
-def analyse_range(data,ranges,attribute,attr_unit):
+def analyse_range(data,ranges,attribute,attr_unit,convert_zero=False):
     from pandas import DataFrame
     import numpy as np
     from scipy.stats import chi2_contingency
+
+    def transform_zero(val):
+    	if (val == 0):
+    		val = 1e-10
+    	return val
+
     (pdf_a,pdf_b) = data
     header_a,data_a_value,data_a_percent = get_range_percentages(pdf_a,attribute,ranges,attr_unit)
     header_b,data_b_value,data_b_percent = get_range_percentages(pdf_b,attribute,ranges,attr_unit)
     mydf = DataFrame(columns=header_a,data=[data_a_percent,data_b_percent],index=['Group-A','Group-B'])
     obs = np.array([data_a_value,data_b_value])
+    if (convert_zero):
+      vecfunc = np.vectorize(transform_zero)
+      obs = vecfunc(obs)
     arr = chi2_contingency(obs,correction=False)
     chi_square_value = arr[0]
     p_value = arr[1]
