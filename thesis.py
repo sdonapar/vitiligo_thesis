@@ -6,7 +6,7 @@ def get_range_percentages(data_frame,attribute,attr_ranges,range_unit,max_range=
     for range_min,range_max in attr_ranges:
         rdf = data_frame[attribute][(data_frame[attribute] >= range_min) & (data_frame[attribute] <= range_max)]
         if (range_max == max_range):
-            header_name = ">" + str(range_min) + " " + range_unit
+            header_name = ">" + str(range_min-1) + " " + range_unit
         else:
             header_name = str(range_min) + "-" + str(range_max) + " "+ range_unit
         rdf_value = len(rdf) *1.0
@@ -39,7 +39,7 @@ def print_attr_stats(data_frame,attribute):
     print "Number of elements:%d"%(st[0])
     print "ranges from %d to %d with mean=%.2f and SD=%.2f"%(st[3],st[7],st[1],st[2])
 
-def plot_graph(mydf,style=None,fname=None,colormap=None,stacked=False):
+def plot_graph(mydf,style=None,fname=None,colormap=None,stacked=False,grid=True):
     import matplotlib 
     import matplotlib.pyplot as plt
     cmap = matplotlib.cm.Accent
@@ -47,7 +47,7 @@ def plot_graph(mydf,style=None,fname=None,colormap=None,stacked=False):
 	plt.style.use(style)
     if colormap:
 	cmap = colormap
-    mydf.plot(kind='bar',fontsize=15,figsize=(8,5),colormap=cmap,rot=360,stacked=stacked)
+    mydf.plot(kind='bar',fontsize=15,figsize=(6,4),colormap=cmap,rot=360,stacked=stacked,grid=grid)
     if fname:
     	plt.savefig(fname)
 
@@ -56,10 +56,12 @@ def analyse_range(data,ranges,attribute,attr_unit,convert_zero=False):
     import numpy as np
     from scipy.stats import chi2_contingency
 
-    def transform_zero(val):
-    	if (val == 0):
-    		val = 1e-10
-    	return val
+    def remove_zeros(obs):
+    	non_zero_filter = ~((obs[0,] == 0) & (obs[1,] == 0))
+    	first = (obs[0,][non_zero_filter])
+    	second = (obs[1,][non_zero_filter])
+	new_obs = np.array([first,second])
+    	return new_obs
 
     (pdf_a,pdf_b) = data
     header_a,data_a_value,data_a_percent = get_range_percentages(pdf_a,attribute,ranges,attr_unit)
@@ -67,8 +69,7 @@ def analyse_range(data,ranges,attribute,attr_unit,convert_zero=False):
     mydf = DataFrame(columns=header_a,data=[data_a_percent,data_b_percent],index=['Group-A','Group-B'])
     obs = np.array([data_a_value,data_b_value])
     if (convert_zero):
-      vecfunc = np.vectorize(transform_zero)
-      obs = vecfunc(obs)
+      obs = remove_zeros(obs)
     arr = chi2_contingency(obs,correction=False)
     chi_square_value = arr[0]
     p_value = arr[1]
