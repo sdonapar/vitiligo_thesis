@@ -1,61 +1,61 @@
-patient_id,group,patient_name,age,gender,type_of_vitiligo,duration_of_vitiligo_yrs,sites,norm_sites,stability_yrs,donar_area,donar_size_cm2,site_id,area_transplanted,transpanted_area_cm2,type_of_repigmentation,onset,DOR_01,DOR_03,DOR_06,total_transplanted_area,no_of_reciepient_sites
-1,A,Srishti,17,F,Segmental vitiligo,14,Rt leg,Leg,1,Lt thigh,08 cm2,group_a_site_1,2 x1.5 cm,3,Perifollicular,8,70,100,100,11.5,3
-1,A,Srishti,17,F,Segmental vitiligo,14,Rt leg,Leg,1,,,group_a_site_2,1.5x1.5 cm,2.25,Perifollicular,8,50,100,100,11.5,3
-1,A,Srishti,17,F,Segmental vitiligo,14,Rt leg,Leg,1,,,group_a_site_3,2.5x2.5 cm,6.25,Perifollicular,8,70,100,100,11.5,3
-2,A,Aman,12,M,Non Segmental,3,Rt ankle,Ankle,1.5,Rt thigh ,04 cm2,group_a_site_4,3x2 cm,6,Perifollicular,20,80,100,100,7.346428571,4
-2,A,Aman,12,M,Non Segmental,3,Rt ankle,Ankle,1.5,,,group_a_site_5,1x0.5 cm + 0.5x0.3 cm,0.65,Perifollicular,20,90,100,100,7.346428571,4
-2,A,Aman,12,M,Non Segmental,3,Rt ankle,Ankle,1.5,,,group_a_site_6,1x0.5 cm,0.5,Perifollicular,20,70,90,95,7.346428571,4
-2,A,Aman,12,M,Non Segmental,3,Rt ankle,Ankle,1.5,,,group_a_site_7,0.5 cm,0.2,Perifollicular,20,100,100,100,7.346428571,4
-3,A,Jahnavi,18,F,Non Segmental,10,Lt hand,Hand,2,Rt thigh ,04 cm2,group_a_site_8,1x1 cm,1,Diffuse,10,80,90,100,9,2
-3,A,Jahnavi,18,F,Non Segmental,10,Lt hand,Wrist,2,,,group_a_site_9,4x2 cm,8,Diffuse,10,80,90,95,9,2
-4,A,Surabhi,21,F,Non Segmental,14,Rt foot,Foot,3,Rt thigh ,20 cm2,group_a_site_10,5x3 cm,15,Diffuse,15,90,95,95,63.25,13
-4,A,Surabhi,21,F,Non Segmental,14,Rt foot,Foot,3,,,group_a_site_11,1x1 cm,1,Diffuse,15,90,99,99,63.25,13
-4,A,Surabhi,21,F,Non Segmental,14,Rt ankle,Ankle,3,,,group_a_site_12,1x1 cm,1,Diffuse,15,90,99,99,63.25,13
-4,A,Surabhi,21,F,Non Segmental,14,Rt ankle,Ankle,3,,,group_a_site_13,1x1 cm,1,Diffuse,15,90,99,99,63.25,13
-4,A,Surabhi,21,F,Non Segmental,14,Lt foot,Foot,3,,,group_a_site_15,1.5x1.5 cm,2.25,Diffuse,15,50,100,100,63.25,13
-4,A,Surabhi,21,F,Non Segmental,14,Lt ankle,Ankle,3,,,group_a_site_16,1.5x1.5 cm,2.25,Diffuse,15,70,99,99,63.25,13
-4,A,Surabhi,21,F,Non Segmental,14,Lt ankle,Ankle,3,,,group_a_site_17,2x1.5 cm,3,Diffuse,15,80,99,99,63.25,13
-4,A,Surabhi,21,F,Non Segmental,14,Lt ankle,Ankle,3,,,group_a_site_18,2x1.5 cm,3,Diffuse,15,70,99,99,63.25,13
-4,A,Surabhi,21,F,Non Segmental,14,Lt ankle,Ankle,3,,,group_a_site_19,1.5x1.5 cm,2.25,Diffuse,15,70,99,99,63.25,13
-4,A,Surabhi,21,F,Non Segmental,14,Lt ankle,Ankle,3,,,group_a_site_20,2x0.5 cm,1,Diffuse,15,70,99,99,63.25,13
-4,A,Surabhi,21,F,Non Segmental,14,Rt leg,Leg,3,,,group_a_site_21,7x3 cm,21,Perifollicular,15,50,80,80,63.25,13
-4,A,Surabhi,21,F,Non Segmental,14,Rt leg,Leg,3,,,group_a_site_22,3x1.5,4.5,Perifollicular,15,50,50,50,63.25,13
-4,A,Surabhi,21,F,Non Segmental,14,Rt leg,Leg,3,,,group_a_site_23,4x1.5 cm,6,Perifollicular,15,50,50,50,63.25,13
-5,A,Surabhi,22,F,Non Segmental,15,Lt leg,Leg,4,lt thigh,15 cm2,group_a_site_24,2x1 + 1x0.5 cm,2.5,Diffuse,10,90,95,95,37.92857143,7
-5,A,Surabhi,22,F,Non Segmental,15,Lt leg,Leg,4,,,group_a_site_25,1x0.5 cm,0.5,Diffuse,10,90,95,95,37.92857143,7
-5,A,Surabhi,22,F,Non Segmental,15,Lt leg,Leg,4,,,group_a_site_26,3 cm,7.07,Diffuse,10,90,95,95,37.92857143,7
-5,A,Surabhi,22,F,Non Segmental,15,Mid abdomen,Abdomen,4,,,group_a_site_27,3 cm,7.07,Diffuse,10,90,95,95,37.92857143,7
-5,A,Surabhi,22,F,Non Segmental,15,Mid abdomen,Abdomen,4,,,group_a_site_28,1 cm,0.79,Diffuse,10,50,50,50,37.92857143,7
-5,A,Surabhi,22,F,Non Segmental,15,Rt retroauricular area,Face,4,,,group_a_site_29,3x2 cm,6,Diffuse,10,90,90,90,37.92857143,7
-5,A,Surabhi,22,F,Non Segmental,15,Lt retroauricular area ,Face,4,,,group_a_site_30,7x2 cm,14,Diffuse,10,80,80,80,37.92857143,7
-6,A,Chaithra,18,F,Focal viitligo,3,Lt upper eyelid,Face,3,Rt thigh ,4 cm2,group_a_site_31,1.5x1cm,1.5,Diffuse,30,50,95,95,1.5,1
-7,B,Mohan,21,M,Non Segmental,2,Rt index finger,Hand,1,Occipital scalp,10 HFU,group_b_site_1,1x1 cm,1,Diffuse,90,0,50,100,1,1
-8,B,Bhanu,15,M,Non Segmental,5,Lt leg,Leg,1,Occipital scalp,20 HFU,group_b_site_2,3x2 cm,6,Marginal,20,20,50,100,14.78571429,3
-8,B,Bhanu,15,M,Non Segmental,5,Lt leg,Leg,1,,,group_b_site_3,1 cm,0.79,Diffuse,20,100,100,100,14.78571429,3
-8,B,Bhanu,15,M,Non Segmental,5,Lt leg,Leg,1,,,group_b_site_4,4x2 cm,8,Perifollicular,20,50,80,100,14.78571429,3
-9,B,James,40,M,Non Segmental,30,Rt leg,Leg,10,Occipital scalp,30 HFU,group_b_site_5,1 cm,0.79,Marginal,50,10,10,10,63.98214286,12
-9,B,James,40,M,Non Segmental,30,Rt leg,Leg,10,,,group_b_site_6,1 cm,0.79,Marginal,50,50,50,50,63.98214286,12
-9,B,James,40,M,Non Segmental,30,Rt leg,Leg,10,,,group_b_site_7,3x2 cm,6,Marginal,50,10,10,10,63.98214286,12
-9,B,James,40,M,Non Segmental,30,Lt leg,Knee,10,,,group_b_site_8,2x1 cm,2,Marginal,50,40,40,40,63.98214286,12
-9,B,James,40,M,Non Segmental,30,Lt leg,Knee,10,,,group_b_site_9,6x4 cm + 2x1 cm + 4x2 cm,34,Perifollicular,50,20,20,20,63.98214286,12
-9,B,James,40,M,Non Segmental,30,Lt leg,Leg,10,,,group_b_site_10,3x2 cm,6,Marginal,50,20,20,20,63.98214286,12
-9,B,James,40,M,Non Segmental,30,Lt leg,Leg,10,,,group_b_site_11,2x1 cm,2,Marginal,50,10,10,10,63.98214286,12
-9,B,James,40,M,Non Segmental,30,Lt leg,Leg,10,,,group_b_site_12,2x2 cm,4,Marginal,50,10,20,20,63.98214286,12
-9,B,James,40,M,Non Segmental,30,Rt leg,Leg,10,,,group_b_site_13,1.5 cm,1.77,Marginal,50,40,40,40,63.98214286,12
-9,B,James,40,M,Non Segmental,30,Rt leg,Leg,10,,,group_b_site_14,2x1 cm,2,Marginal,50,10,10,10,63.98214286,12
-9,B,James,40,M,Non Segmental,30,Rt leg,Leg,10,,,group_b_site_15,2 cm,3.14,Diffuse,50,40,40,40,63.98214286,12
-9,B,James,40,M,Non Segmental,30,Rt ankle,Ankle,10,,,group_b_site_16,1.5 cm,1.5,Marginal,50,20,20,20,63.98214286,12
-10,B,James,42,M,Non Segmental,32,Lt elbow,Forearm,12,Occipital scalp,20 HFU,group_b_site_17,2x1 cm,2,Diffuse,50,95,95,95,11.28571429,5
-10,B,James,42,M,Non Segmental,32,Lt elbow,Forearm,12,,,group_b_site_18,2x1 cm,2,Diffuse,50,90,90,90,11.28571429,5
-10,B,James,42,M,Non Segmental,32,Lt elbow,Forearm,12,,,group_b_site_19,1x0.5 cm,0.5,Diffuse,50,100,100,100,11.28571429,5
-10,B,James,42,M,Non Segmental,32,Lt elbow,Forearm,12,,,group_b_site_20,3x2 cm,6,Marginal,50,10,10,20,11.28571429,5
-10,B,James,42,M,Non Segmental,32,Lt elbow,Forearm,12,,,group_b_site_21,1 cm,0.79,Diffuse,50,30,30,30,11.28571429,5
-11,B,Poonam,39,F,Non Segmental,25,Rt foot,Foot,10,Occipital scalp,40 HFU,group_b_site_22,1x0.5 cm,0.5,Diffuse,30,50,50,100,6.839285714,9
-11,B,Poonam,39,F,Non Segmental,25,Rt ankle,Ankle,10,,,group_b_site_23,2x1 cm,2,Marginal,30,20,20,70,6.839285714,9
-11,B,Poonam,39,F,Non Segmental,25,Lt leg,Leg,10,,,group_b_site_24,0.5 cm,0.5,Diffuse,30,90,90,95,6.839285714,9
-11,B,Poonam,39,F,Non Segmental,25,Lt ankle,Ankle,10,,,group_b_site_28,1 cm,0.79,Marginal,30,10,10,30,6.839285714,9
-11,B,Poonam,39,F,Non Segmental,25,Lt ankle,Ankle,10,,,group_b_site_29,1 cm,0.79,Marginal,30,10,10,30,6.839285714,9
-11,B,Poonam,39,F,Non Segmental,25,Lt ankle,Ankle,10,,,group_b_site_30,1 cm,0.79,Diffuse,30,50,50,90,6.839285714,9
-11,B,Poonam,39,F,Non Segmental,25,Lt ankle,Ankle,10,,,group_b_site_31,1 cm,0.79,Diffuse,30,50,50,100,6.839285714,9
-11,B,Poonam,39,F,Non Segmental,25,Lt ankle,Ankle,10,,,group_b_site_32,0.5 cm,0.2,Diffuse,30,95,95,100,6.839285714,9
-11,B,Poonam,39,F,Non Segmental,25,Lt ankle,Ankle,10,,,group_b_site_33,1x0.5 cm,0.5,Diffuse,30,95,95,100,6.839285714,9
+patient_id,group,patient_name,age,gender,type_of_vitiligo,duration_of_vitiligo_yrs,sites,norm_sites,stability_yrs,donar_area,donar_size_cm2,site_id,area_transplanted,transpanted_area_cm2,type_of_repigmentation,onset,DOR_01,DOR_03,DOR_06,total_transplanted_area,no_of_reciepient_sites,Subj_01,Subj_03,Subj_06,Complications_Donor area_01,Complications_Donor_03,Complications_Donor_06,PGH_01,PGH_03,PGH_06,CM_01,CM_03,CM_06
+1,A,Srishti,17,F,Segmental vitiligo,14,Rt leg,Leg,1,Lt thigh,08 cm2,group_a_site_1,2 x1.5 cm,3,Perifollicular,8,70,100,100,11.5,3,Very good,Excellent ,Excellent,Hyperpigmentation,Hyperpigmentation,Hyperpigmentation,Yes,No,No,Yes,Yes,No
+1,A,Srishti,17,F,Segmental vitiligo,14,Rt leg,Leg,1,,,group_a_site_2,1.5x1.5 cm,2.25,perifollicular,8,50,100,100,11.5,3,Good,Excellent ,Excellent,,,,Yes,No,No,Yes,Yes,No
+1,A,Srishti,17,F,Segmental vitiligo,14,Rt leg,Leg,1,,,group_a_site_3,2.5x2.5 cm,6.25,perifollicular,8,70,100,100,11.5,3,Very good,Excellent ,Excellent,,,,Yes,No,No,Yes,Yes,No
+2,A,Aman,12,M,Non Segmental,3,Rt ankle,Ankle,1.5,Rt thigh ,04 cm2,group_a_site_4,3x2 cm,6,perifollicular,20,80,100,100,7.346428571,4,Very good,Excellent ,Excellent,Scarring,Scarring,Scarring,Yes,No,No,No,No,No
+2,A,Aman,12,M,Non Segmental,3,Rt ankle,Ankle,1.5,,,group_a_site_5,1x0.5 cm + 0.5x0.3 cm,0.65,perifollicular,20,90,100,100,7.346428571,4,Excellent,Excellent ,Excellent,,,,No,No,No,No,No,No
+2,A,Aman,12,M,Non Segmental,3,Rt ankle,Ankle,1.5,,,group_a_site_6,1x0.5 cm,0.5,perifollicular,20,70,90,95,7.346428571,4,Very good,Excellent ,Excellent,,,,No,No,No,No,No,No
+2,A,Aman,12,M,Non Segmental,3,Rt ankle,Ankle,1.5,,,group_a_site_7,0.5 cm,0.2,perifollicular,20,100,100,100,7.346428571,4,Excellent,Excellent ,Excellent,,,,No,No,No,Yes,Yes,No
+3,A,Jahnavi,18,F,Non Segmental,10,Lt hand,Hand,2,Rt thigh ,04 cm2,group_a_site_8,1x1 cm,1,diffuse ,10,80,90,100,9,2,Very good,Excellent ,Excellent,Hyperpigmentation,Hyperpigmentation,Hyperpigmentation,Yes,Yes,No,Yes,Yes,No
+3,A,Jahnavi,18,F,Non Segmental,10,Lt hand,Wrist,2,,,group_a_site_9,4x2 cm,8,diffuse,10,80,90,95,9,2,Very good,Excellent ,Excellent,,,,Yes,Yes,No,Yes,Yes,No
+4,A,Surabhi,21,F,Non Segmental,14,Rt foot,Foot,3,Rt thigh ,20 cm2,group_a_site_10,5x3 cm,15,diffuse,15,90,95,95,63.25,13,Very good,Very good,Excellent,Hyperpigmentation,Hyperpigmentation,Hyperpigmentation,Yes,Yes,No,Yes,Yes,No
+4,A,Surabhi,21,F,Non Segmental,14,Rt foot,Foot,3,,,group_a_site_11,1x1 cm,1,diffuse,15,90,99,99,63.25,13,Very good,Very good,Excellent,,,,Yes,Yes,No,Yes,Yes,No
+4,A,Surabhi,21,F,Non Segmental,14,Rt ankle,Ankle,3,,,group_a_site_12,1x1 cm,1,diffuse,15,90,99,99,63.25,13,Very good,Very good,Excellent,,,,Yes,Yes,Yes,Yes,Yes,No
+4,A,Surabhi,21,F,Non Segmental,14,Rt ankle,Ankle,3,,,group_a_site_13,1x1 cm,1,diffuse,15,90,99,99,63.25,13,Very good,Very good,Excellent,,,,Yes,Yes,Yes,Yes,Yes,No
+4,A,Surabhi,21,F,Non Segmental,14,Lt foot,Foot,3,,,group_a_site_15,1.5x1.5 cm,2.25,diffuse,15,50,100,100,63.25,13,Good,Excellent ,Excellent,,,,Yes,Yes,No,Yes,Yes,No
+4,A,Surabhi,21,F,Non Segmental,14,Lt ankle,Ankle,3,,,group_a_site_16,1.5x1.5 cm,2.25,diffuse,15,70,99,99,63.25,13,Very good,Excellent ,Excellent,,,,Yes,Yes,No,Yes,Yes,No
+4,A,Surabhi,21,F,Non Segmental,14,Lt ankle,Ankle,3,,,group_a_site_17,2x1.5 cm,3,diffuse,15,80,99,99,63.25,13,Very good,Excellent ,Excellent,,,,Yes,No,No,Yes,No,No
+4,A,Surabhi,21,F,Non Segmental,14,Lt ankle,Ankle,3,,,group_a_site_18,2x1.5 cm,3,diffuse,15,70,99,99,63.25,13,Very good,Excellent ,Excellent,,,,Yes,No,No,Yes,Yes,No
+4,A,Surabhi,21,F,Non Segmental,14,Lt ankle,Ankle,3,,,group_a_site_19,1.5x1.5 cm,2.25,diffuse,15,70,99,99,63.25,13,Very good,Excellent ,Excellent,,,,Yes,No,No,Yes,Yes,No
+4,A,Surabhi,21,F,Non Segmental,14,Lt ankle,Ankle,3,,,group_a_site_20,2x0.5 cm,1,diffuse,15,70,99,99,63.25,13,Very good,Excellent ,Excellent,,,,Yes,Yes,Yes,Yes,Yes,No
+4,A,Surabhi,21,F,Non Segmental,14,Rt leg,Leg,3,,,group_a_site_21,7x3 cm,21,Perifollicular,15,50,80,80,63.25,13,Good,Good,Good,,,,No,No,No,No,No,No
+4,A,Surabhi,21,F,Non Segmental,14,Rt leg,Leg,3,,,group_a_site_22,3x1.5,4.5,Perifollicular,15,50,50,50,63.25,13,Good,Good,Good,,,,No,No,No,No,No,No
+4,A,Surabhi,21,F,Non Segmental,14,Rt leg,Leg,3,,,group_a_site_23,4x1.5 cm,6,Perifollicular,15,50,50,50,63.25,13,Good,Good,Good,,,,No,No,No,No,No,No
+5,A,Surabhi,22,F,Non Segmental,15,Lt leg,Leg,4,lt thigh,15 cm2,group_a_site_24,2x1 + 1x0.5 cm,2.5,Diffuse,10,90,95,95,37.92857143,7,Very good,Excellent ,Excellent,Hyperpigmentation,Hyperpigmentation,Hyperpigmentation,Yes,Yes,Yes,Yes,Yes,No
+5,A,Surabhi,22,F,Non Segmental,15,Lt leg,Leg,4,,,group_a_site_25,1x0.5 cm,0.5,diffuse,10,90,95,95,37.92857143,7,Very good,Excellent ,Excellent,,,,Yes,Yes,Yes,Yes,Yes,No
+5,A,Surabhi,22,F,Non Segmental,15,Lt leg,Leg,4,,,group_a_site_26,3 cm,7.07,Diffuse,10,90,95,95,37.92857143,7,Very good,Excellent ,Excellent,,,,Yes,Yes,Yes,Yes,Yes,No
+5,A,Surabhi,22,F,Non Segmental,15,Mid abdomen,Abdomen,4,,,group_a_site_27,3 cm,7.07,Diffuse,10,90,95,95,37.92857143,7,Very good,Excellent ,Excellent,,,,Yes,Yes,Yes,No,No,No
+5,A,Surabhi,22,F,Non Segmental,15,Mid abdomen,Abdomen,4,,,group_a_site_28,1 cm,0.79,Diffuse,10,50,50,50,37.92857143,7,Good,Good,Good,,,,No,No,No,No,No,No
+5,A,Surabhi,22,F,Non Segmental,15,Rt retroauricular area,Face,4,,,group_a_site_29,3x2 cm,6,Diffuse,10,90,90,90,37.92857143,7,Very good,Very good,Very good,,,,No,No,No,No,No,No
+5,A,Surabhi,22,F,Non Segmental,15,Lt retroauricular area ,Face,4,,,group_a_site_30,7x2 cm,14,Diffuse,10,80,80,80,37.92857143,7,Good,Good,Good,,,,No,No,No,No,No,No
+6,A,Chaithra,18,F,Focal viitligo,3,Lt upper eyelid,Face,3,Rt thigh ,4 cm2,group_a_site_31,1.5x1cm,1.5,Diffuse,30,50,95,95,1.5,1,Good,Excellent ,Excellent,Hyperpigmentation,Hyperpigmentation,Hyperpigmentation,No,No,No,No,No,No
+7,B,Mohan,21,M,Non Segmental,2,Rt index finger,Hand,1,Occipital scalp,10 HFU,group_b_site_1,1x1 cm,1,Diffuse,90,0,50,100,1,1,Poor,Good,Excellent,Nil,Nil,Nil,No,No,No,No,No,No
+8,B,Bhanu,15,M,Non Segmental,5,Lt leg,Leg,1,Occipital scalp,20 HFU,group_b_site_2,3x2 cm,6,Marginal,20,20,50,100,14.78571429,3,Poor,Good,Excellent,Nil,Nil,Nil,No,No,No,Yes,No,No
+8,B,Bhanu,15,M,Non Segmental,5,Lt leg,Leg,1,,,group_b_site_3,1 cm,0.79,Diffuse,20,100,100,100,14.78571429,3,Excellent,Excellent ,Excellent,,,,No,No,No,Yes,No,No
+8,B,Bhanu,15,M,Non Segmental,5,Lt leg,Leg,1,,,group_b_site_4,4x2 cm,8,Perifollicular,20,50,80,100,14.78571429,3,Good,Good,Excellent,,,,No,No,No,Yes,No,No
+9,B,James,40,M,Non Segmental,30,Rt leg,Leg,10,Occipital scalp,30 HFU,group_b_site_5,1 cm,0.79,Marginal,50,10,10,10,63.98214286,12,Poor,Poor,Poor,Nil,Nil,Nil,No,No,No,Yes,Yes,Yes
+9,B,James,40,M,Non Segmental,30,Rt leg,Leg,10,,,group_b_site_6,1 cm,0.79,Marginal,50,50,50,50,63.98214286,12,Good,Good,Good,,,,No,No,No,Yes,Yes,No
+9,B,James,40,M,Non Segmental,30,Rt leg,Leg,10,,,group_b_site_7,3x2 cm,6,Marginal,50,10,10,10,63.98214286,12,Poor,Poor,Poor,,,,No,No,No,No,No,No
+9,B,James,40,M,Non Segmental,30,Lt leg,Knee,10,,,group_b_site_8,2x1 cm,2,Marginal,50,40,40,40,63.98214286,12,Poor,Poor,Poor,,,,No,No,No,Yes,No,No
+9,B,James,40,M,Non Segmental,30,Lt leg,Knee,10,,,group_b_site_9,6x4 cm + 2x1 cm + 4x2 cm,34,Perifollicular,50,20,20,20,63.98214286,12,Poor,Poor,Poor,,,,No,No,No,Yes,No,No
+9,B,James,40,M,Non Segmental,30,Lt leg,Leg,10,,,group_b_site_10,3x2 cm,6,Marginal,50,20,20,20,63.98214286,12,Poor,Poor,Poor,,,,No,No,No,Yes,No,No
+9,B,James,40,M,Non Segmental,30,Lt leg,Leg,10,,,group_b_site_11,2x1 cm,2,Marginal,50,10,10,10,63.98214286,12,Poor,Poor,Poor,,,,No,No,No,Yes,Yes,No
+9,B,James,40,M,Non Segmental,30,Lt leg,Leg,10,,,group_b_site_12,2x2 cm,4,Marginal,50,10,20,20,63.98214286,12,Poor,Poor,Poor,,,,No,No,No,Yes,Yes,No
+9,B,James,40,M,Non Segmental,30,Rt leg,Leg,10,,,group_b_site_13,1.5 cm,1.77,Marginal,50,40,40,40,63.98214286,12,Poor,Poor,Poor,,,,No,No,No,Yes,No,No
+9,B,James,40,M,Non Segmental,30,Rt leg,Leg,10,,,group_b_site_14,2x1 cm,2,Marginal,50,10,10,10,63.98214286,12,Poor,Poor,Poor,,,,No,No,No,Yes,No,No
+9,B,James,40,M,Non Segmental,30,Rt leg,Leg,10,,,group_b_site_15,2 cm,3.14,diffuse,50,40,40,40,63.98214286,12,Poor,Poor,Poor,,,,No,No,No,Yes,No,No
+9,B,James,40,M,Non Segmental,30,Rt ankle,Ankle,10,,,group_b_site_16,1.5 cm,1.5,Marginal,50,20,20,20,63.98214286,12,Poor,Poor,Poor,,,,No,No,No,Yes,No,No
+10,B,James,42,M,Non Segmental,32,Lt elbow,Forearm,12,Occipital scalp,20 HFU,group_b_site_17,2x1 cm,2,Diffuse,50,95,95,95,11.28571429,5,Very good,Very good,Very good,Nil,Nil,Nil,No,No,No,Yes,Yes,Yes
+10,B,James,42,M,Non Segmental,32,Lt elbow,Forearm,12,,,group_b_site_18,2x1 cm,2,Diffuse,50,90,90,90,11.28571429,5,Very good,Very good,Very good,,,,No,No,No,Yes,Yes,yes
+10,B,James,42,M,Non Segmental,32,Lt elbow,Forearm,12,,,group_b_site_19,1x0.5 cm,0.5,Diffuse,50,100,100,100,11.28571429,5,Very good,Very good,Very good,,,,No,No,No,Yes,Yes,Yes
+10,B,James,42,M,Non Segmental,32,Lt elbow,Forearm,12,,,group_b_site_20,3x2 cm,6,Marginal,50,10,10,20,11.28571429,5,Poor,Poor,Poor,,,,No,No,No,No,No,No
+10,B,James,42,M,Non Segmental,32,Lt elbow,Forearm,12,,,group_b_site_21,1 cm,0.79,Diffuse,50,30,30,30,11.28571429,5,Poor,Poor,Poor,,,,No,No,No,No,No,No
+11,B,Poonam,39,F,Non Segmental,25,Rt foot,Foot,10,Occipital scalp,40 HFU,group_b_site_22,1x0.5 cm,0.5,diffuse,30,50,50,100,6.839285714,9,Good,Good,Excellent,Nil,Nil,Nil,No,No,No,Yes,No,No
+11,B,Poonam,39,F,Non Segmental,25,Rt ankle,Ankle,10,,,group_b_site_23,2x1 cm,2,Marginal,30,20,20,70,6.839285714,9,Poor,Poor,Good,,,,No,No,No,Yes,No,No
+11,B,Poonam,39,F,Non Segmental,25,Lt leg,Leg,10,,,group_b_site_24,0.5 cm,0.5,Diffuse,30,90,90,95,6.839285714,9,Excellent,Excellent ,Excellent,,,,No,No,No,Yes,Yes,No
+11,B,Poonam,39,F,Non Segmental,25,Lt ankle,Ankle,10,,,group_b_site_28,1 cm,0.79,marginal,30,10,10,30,6.839285714,9,Poor,Poor,Poor,,,,No,No,No,Yes,Yes,No
+11,B,Poonam,39,F,Non Segmental,25,Lt ankle,Ankle,10,,,group_b_site_29,1 cm,0.79,Marginal,30,10,10,30,6.839285714,9,Poor,Poor,Poor,,,,No,No,No,Yes,Yes,No
+11,B,Poonam,39,F,Non Segmental,25,Lt ankle,Ankle,10,,,group_b_site_30,1 cm,0.79,Diffuse,30,50,50,90,6.839285714,9,Good,Good,Excellent,,,,No,No,No,Yes,yes,No
+11,B,Poonam,39,F,Non Segmental,25,Lt ankle,Ankle,10,,,group_b_site_31,1 cm,0.79,diffuse,30,50,50,100,6.839285714,9,Good,Good,Excellent,,,,No,No,No,Yes,Yes,No
+11,B,Poonam,39,F,Non Segmental,25,Lt ankle,Ankle,10,,,group_b_site_32,0.5 cm,0.2,diffuse,30,95,95,100,6.839285714,9,Excellent,Excellent ,Excellent,,,,No,No,No,Yes,Yes,No
+11,B,Poonam,39,F,Non Segmental,25,Lt ankle,Ankle,10,,,group_b_site_33,1x0.5 cm,0.5,diffuse,30,95,95,100,6.839285714,9,Excellent,Excellent ,Excellent,,,,No,No,No,Yes,Yes,No
